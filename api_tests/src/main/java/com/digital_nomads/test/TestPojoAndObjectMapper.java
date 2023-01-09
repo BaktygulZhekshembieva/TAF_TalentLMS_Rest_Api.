@@ -4,6 +4,7 @@ import com.digital_nomads.pojo.Unknown;
 import com.digital_nomads.pojo.UnknownResponseList;
 import com.digital_nomads.pojo.User;
 import com.digital_nomads.pojo.UserResponseList;
+import com.digital_nomads.helpers.UserHelperReqest;
 import com.digital_nomads.utils.ObjectConverter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.restassured.RestAssured;
@@ -62,8 +63,11 @@ public class TestPojoAndObjectMapper {
         for (Unknown unknown : unknownResponseList.getUnknowns()) {
             System.out.println(unknown);
         }
-        ;
+    }
 
+    @Test
+    public void test3(){
+        UserHelperReqest.createMockUser();
     }
 
 
