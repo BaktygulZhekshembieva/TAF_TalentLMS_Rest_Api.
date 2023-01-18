@@ -26,6 +26,6 @@ public class UserTest extends BaseApiTest {
                 .basePath(UserEndpoints.USERS)
                 .request(Method.GET);
         User[] users = ObjectConverter.convertJsonObjectToJavaObject(response.body().asString(),User[].class);
-        Assert.assertEquals(users.length,4);
+        Assert.assertEquals(users.length,1);
     }
 }

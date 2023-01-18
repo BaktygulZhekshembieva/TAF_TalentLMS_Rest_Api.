@@ -36,6 +36,8 @@ public class ObjectConverter {
      */
     public static <T>List <T> convertJsonArrayToListOfObjects(String jsonArray,Class<T[]> clazz) throws JsonProcessingException {
         return Arrays.asList(objectMapper.readValue(jsonArray,clazz));
-    }
+    } //конвертируем в лист список данных
+
+
 
 }

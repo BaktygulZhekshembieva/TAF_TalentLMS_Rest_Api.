@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TAF_TalentLMS_Rest_Api.iml" filepath="$PROJECT_DIR$/.idea/TAF_TalentLMS_Rest_Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api_tests/api_tests.iml" filepath="$PROJECT_DIR$/api_tests/api_tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui_tests/ui_tests.iml" filepath="$PROJECT_DIR$/ui_tests/ui_tests.iml" />
+    </modules>
+  </component>
+</project>

@@ -10,6 +10,6 @@ public abstract class BaseApiTest {
 
     @BeforeClass
     public static void init() {
-
-    }
+       BaseMethods.initHeaders();
+   }
 }
